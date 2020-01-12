@@ -8,6 +8,6 @@ public class SampleTestNgTest extends TestNgTestBase {
 
   @Test
   public void testHomePageHasAHeader() {
-    driver.get(baseUrl);
+    System.out.println("Hello, world!");
   }
 }
